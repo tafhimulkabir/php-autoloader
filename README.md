@@ -1,2 +1,2 @@
-# php-autoloader
+### PHP Autoloader
 Experimental PHP Autoloader
