@@ -3,6 +3,3 @@
 
 # Ignore application directory 
 /application/
-
-# Ignore composer.lock directory 
-composer.lock
