@@ -6,5 +6,5 @@ namespace App\Autoloader\Loader;
 
 class ActualLoader
 {
-    
+
 }
