@@ -9,3 +9,5 @@ require_once BASE_URI . 'enum' . DIRECTORY_SEPARATOR . 'AutoloadStandard.php';
 
 use App\Autoloader\Loader\ActualLoader;
 use App\Autoloader\Enum\AutoloadStandard;
+
+ActualLoader::getConfigParam($configuration);
