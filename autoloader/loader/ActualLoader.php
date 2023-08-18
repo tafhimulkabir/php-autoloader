@@ -6,6 +6,8 @@ namespace App\Autoloader\Loader;
 
 class ActualLoader
 {
+    private const EXT = '.php';
+
     private static array $configParam;
 
     public static function getConfigParam(array $config): void
@@ -13,5 +15,9 @@ class ActualLoader
         self::$configParam = $config;
     }
 
+    private static function loader(string $name): void
+    {
+
+    }
 
 }
